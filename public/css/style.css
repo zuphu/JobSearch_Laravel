@@ -1,0 +1,143 @@
+html, body { 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-weight: normal;
+    font-style: normal;
+    background-color: white;
+    color: black;
+    height:100%;
+}
+
+h1 { font-weight: bold; color: #003399; }
+h2 { font-weight: bold; color: #006666; }
+h3 { font-weight: bold; color: #009933; }
+h4 { font-weight: bold; font-style: italic; color: #669900; }
+
+p { margin-left: 0em; }
+
+table { font-family: Verdana, Arial, Helvetica, sans-serif; }
+caption { font-weight: bold; }
+th { font-weight: bold; background-color: blue; color: white; padding: 2px; }
+td { padding: 2px; }
+/* tr { background-color: white; } */
+
+table.bordered    { border: solid; border-width: thin; }
+table.bordered td { border: solid; border-width: thin; }
+table.bordered th { border: solid; border-width: thin; border-color: black; }
+
+address { margin-left: 0in; font-style: italic; }       
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.alert { font-weight: bold; font-style: italic; color: red; }
+
+.big {
+ font-size: 50px;
+}
+.eg { 
+    font-family: Monaco, Courier, "Courier New", monospace;
+    background-color: #FFFFE0;
+    border-style: groove; 
+    border: thin;
+    padding: 5px;
+}
+
+.welcome {
+  position:fixed;
+  top:200px;
+}
+
+.recentQueries {
+  position:relative;
+  top: -200px;
+  left: 400px;
+  width: 450px;
+  height: 200px;
+  border: 1px solid;
+  border-radius:25px;
+  box-shadow: 10px 10px 5px #888888;
+  padding:10px 40px;
+  background:#dddddd;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+}
+
+/* Set the fixed height of the footer here */
+.footer {
+  height: 60px;
+  background-color: #f5f5f5;
+  margin: auto;
+  text-align: center;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+a.ay:link, a.ay:visited
+{
+  color: black;
+  background-color:#F8F8F8;
+  padding:3px;
+  text-decoration:none;
+}
+
+a.ay:hover,a.ay:active
+{
+  background-color:#66CCCC;
+}
+
+a.ax:link , a.ax:visited
+{
+  color:black;
+  background-color:#F8F8F8;
+  padding:10px;
+  border: 1px dashed orange;
+  font-family: 'Shadows Into Light';
+}
+
+a.ax:hover,a.ax:active
+{
+  background-color:#00FF00;
+}
+
+.align-right
+{
+ text-align: right; 
+}
+
